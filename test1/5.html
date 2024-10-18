@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit List</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none; 
+            padding: 0; 
+            color: green; 
+        }
+
+        li {
+            margin: 5px 0;
+            position: relative; 
+        }
+
+        li::before {
+            content: ''; 
+            display: inline-block;
+            width: 10px; 
+            height: 10px; 
+            background-color: green; 
+            margin-right: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Fruit List</h1>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+</body>
+</html>

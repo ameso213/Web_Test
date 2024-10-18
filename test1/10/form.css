@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, fieldset {
+    width: 300px;
+    margin: 10px 0;
+    width: 95%;
+}
+
+.quantity-options {
+    display: flex;
+    justify-content: space-around; 
+    margin: 5px 0; 
+    padding: 0;
+    width: 100%; 
+    font-size: 0.9em; 
+}
+
+.quantity-options label {
+    display: flex; 
+    align-items: center; 
+    margin: 0 5px; 
+}
+
+.quantity-options input[type="radio"] {
+    width: 20px; 
+    height: 20px; 
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
